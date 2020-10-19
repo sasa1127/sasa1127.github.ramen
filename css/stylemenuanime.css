@@ -42,7 +42,6 @@
   position: absolute;
   right: 49%;
   z-index: 2;
-  padding: 10px 10px 110px;
   overflow: hidden;
   color: #fff;
   font-size: 14px;
@@ -53,7 +52,7 @@
   text-decoration: none;
   writing-mode: vertical-lr;
 }
- .scroll::after {
+.scroll::after {
   content: '';
   position: absolute;
   bottom: 0;
