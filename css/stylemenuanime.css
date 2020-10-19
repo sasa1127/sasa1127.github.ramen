@@ -42,7 +42,7 @@
   position: absolute;
   right: 49%;
   z-index: 2;
-  padding: 10px;
+  padding: 10px 10px 110px;
   overflow: hidden;
   color: #fff;
   font-size: 14px;
@@ -57,9 +57,10 @@
     _::-webkit-full-page-media, _:future, :root .scroll {
   display: inline-block;
   position: absolute;
+      top: 50px;
   right: 49%;
   z-index: 2;
-  padding: 10px;
+  padding: 10px 10px 110px;
   overflow: hidden;
   color: #fff;
   font-size: 14px;
