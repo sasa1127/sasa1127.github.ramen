@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+JP:wght@700&display=swap');
+footer{
+	display: block;
+	text-align: left;
+	position: relative;
+	margin: 100px 0 0 0;
+	padding: 20px 0 20px 3%;
+	border-top: 1px solid #ffffff;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: lighter;
+	background-color:#e50014;
+}
+.menu_attention{
+	color: #ffffff;
+}
+.logo_box{
+	color:#ffffff;
+	font-size: 9px;
+	letter-spacing: 1px;
+}
+.logo_box img{
+	margin-top: 10px;
+	width: 120px;
+}
+.footer_access{
+	margin-top: 15px;
+	font-size: 10px;
+	letter-spacing: 1px;
+	line-height: 21px;
+	color: #ffffff;
+}
+.sns_box{
+	position: absolute;
+	top: 20px;
+	right: 2%;
+}
+.instagram{
+	display: inline-block;
+}
+.instagram :hover{
+	opacity: 0.8;
+}
+.twitter{
+	display: inline-block;
+	margin-right: 12px;
+}
+.twitter :hover{
+	opacity: 0.8;
+}
+.instagram img{
+	width: 30px;
+}
+.twitter img{
+	width: 30px;
+}
+
+

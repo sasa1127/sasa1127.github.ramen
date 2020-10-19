@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.img-wrap {
+    overflow: hidden;
+    position: relative;
+    height: 150px;
+  }
+  
+.img-wrap:before {
+    animation: img-wrap 3s cubic-bezier(.4, 0, .2, 1) forwards;
+    background: #fff;
+    bottom: 0;
+    content: '';
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+.section{
+  background-color: black;
+}
+.section:before {
+  animation: img-wrap 3s cubic-bezier(.4, 0, .2, 1) forwards;
+  background: #fff;
+  position: absolute;
+}
+@keyframes img-wrap {
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+.img-wrap p {
+    position: absolute;/*絶対配置*/
+    color: #d10c0c;
+    top: 35%;
+    left: 47%;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    margin:0;
+  padding:0;
+   text-shadow    : 
+       2px  2px 1px #ffffff,
+      -2px  2px 1px  #ffffff,
+       2px -2px 1px  #ffffff,
+      -2px -2px 1px  #ffffff,
+       2px  0px 1px  #ffffff,
+       0px  2px 1px  #ffffff,
+      -2px  0px 1px  #ffffff,
+       0px -2px 1px  #ffffff;
+    }
+  
+  .img-wrap img {
+    width: 100%;
+    opacity: 0.6;
+    }
+
+    
+   
+
+      .my_panel{
+        width:100%;
+        padding:0;
+        overflow:hidden;
+        position: relative;
+        background-color: black;
+    }
+    
+    .my_panel img{
+        vertical-align: bottom;
+        border:none;
+        width:100%;
+        transition: all .2s ease;
+    }
+    .my_panel a:hover img{
+        filter:alpha(opacity=80);
+        -moz-opacity: 0.8;
+        opacity: 0.8;
+    }
+    .my_panel ul{
+        margin:0;
+        padding:0;
+        width:102%;
+    }
+    .my_panel li{
+        margin:0;
+        padding:0;
+        list-style-type:none;
+    }
+    .my_panel li{
+        width:23%;
+        float:left;
+        margin:0 2% 2% 0;
+    }
+    .my_panel li:nth-of-type(10n+1){
+        width:48%;
+    }
+    .my_panel li:nth-of-type(10n+6){
+        float:right;
+        width:48%;
+    }
+    
+    
+    .preview{
+       
+        background: #444;
+       
+        display: none;
+        color: #FFF;
+        text-align: center;
+    }
