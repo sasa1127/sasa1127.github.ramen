@@ -38,6 +38,7 @@
   opacity: 0.8;
   }
 .scroll {
+  top: 50px;
   display: inline-block;
   position: absolute;
   right: 49%;
