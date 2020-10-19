@@ -38,11 +38,11 @@
   opacity: 0.8;
   }
 .scroll {
-  top: 270px;
   position: absolute;
   right: 49%;
   z-index: 2;
   padding: 10px 10px 110px;
+  top: 270px;
   overflow: hidden;
   color: #fff;
   font-size: 14px;
