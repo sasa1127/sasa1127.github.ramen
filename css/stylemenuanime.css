@@ -53,7 +53,34 @@
   text-decoration: none;
   writing-mode: vertical-lr;
 }
-.scroll::after {
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    _::-webkit-full-page-media, _:future, :root .scroll {
+  display: inline-block;
+  position: absolute;
+  right: 49%;
+  z-index: 2;
+  padding: 10px 10px 110px;
+  overflow: hidden;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  writing-mode: vertical-lr;     
+    }
+}
+ .scroll::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 1px;
+  height: 100px;
+  background: #fff;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    _::-webkit-full-page-media, _:future, :root .scroll::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -62,6 +89,10 @@
   background: #fff;
 }
 .scroll::after {
+  animation: sdl 1.5s cubic-bezier(1, 0, 0, 1) infinite;
+}
+ @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    _::-webkit-full-page-media, _:future, :root .scroll::after {
   animation: sdl 1.5s cubic-bezier(1, 0, 0, 1) infinite;
 }
 @keyframes sdl {
