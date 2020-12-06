@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.topping {
+    display: block;
+	background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+  }

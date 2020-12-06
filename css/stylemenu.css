@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/*menu画面の設定*/
+
+/*画像の出し方*/
 .img-wrap {
     overflow: hidden;
     position: relative;
-    height: 150px;
   }
   
 .img-wrap:before {
@@ -111,3 +113,4 @@
         color: #FFF;
         text-align: center;
     }
+

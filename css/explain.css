@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
+/*ホーム画面説明文*/
 .explain{
     margin-top: 50px;
     text-align: center;
@@ -50,7 +50,8 @@ dl{
   }
   .news1{
      text-align: center;
-     margin-top: 100px;
+     margin-top: 50px;
+     margin-bottom: 50px;
   }
 
   

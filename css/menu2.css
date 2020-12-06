@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.menu{
+  padding-top: 30px;
+  display: block;
+  text-align: center;
+  background-color: black;
+  padding-bottom: 150px;
+}
+#mainimg img{
+  padding-top: 30px;
+    width: 300px;
+}
+.menu .titl{
+  color:#d10c0c;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  text-shadow: 
+       2px  2px 1px #ffffff,
+      -2px  2px 1px  #ffffff,
+       2px -2px 1px  #ffffff,
+      -2px -2px 1px  #ffffff,
+       2px  0px 1px  #ffffff,
+       0px  2px 1px  #ffffff,
+      -2px  0px 1px  #ffffff,
+       0px -2px 1px  #ffffff;
+    }
+.menu .setumei{
+padding-top: 20px;
+color: white;
+font-family: 'Anton', sans-serif;
+font-size: 20px;
+padding-right: 10%;
+padding-left: 10%;
+}
+
+li{
+  display: inline;
+}
+#subimg img{
+  width: 70px;
+
+}
+.current img { 
+  border: 3px solid rgb(212, 212, 212);
+  
+}

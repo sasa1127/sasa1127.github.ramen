@@ -38,10 +38,10 @@
   opacity: 0.8;
   }
 .scroll {
-  top: 270px;
   position: absolute;
   right: 49%;
   z-index: 2;
+  top: 270px;
   padding: 10px 10px 110px;
   overflow: hidden;
   color: #fff;
@@ -126,6 +126,7 @@ padding:0;
       margin-left: 10px;
 }
 
+/* メニュー名のアニメーション*/
 figcaption {
   font-family: 'Sawarabi Mincho', sans-serif;
   position: absolute;
@@ -139,11 +140,11 @@ figcaption {
   -webkit-transition: all 0.6s ease;
   -moz-transition:    all 0.6s ease;
   -o-transition:      all 0.6s ease;
-}
+} 
  
 .figure:hover figcaption {
   opacity: 1;
-  left: 25%;
+  left: 21.6%;
 }
 .figure {
   position: relative;
