@@ -136,14 +136,16 @@ figcaption {
   opacity: 0;
   bottom: 0;
   left:0px;
-  -webkit-transition: all 0.6s ease;
-  -moz-transition:    all 0.6s ease;
-  -o-transition:      all 0.6s ease;
+
 }
  
-.figure:hover figcaption {
-  opacity: 1;
-  left: 17%;
+.figure figcaption {
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+  left:20%;
 }
 .figure {
   position: relative;
@@ -153,7 +155,7 @@ figcaption {
 figcaption {
   font-family: 'Sawarabi Mincho', sans-serif;
   position: absolute;
-  background: rgba(0,0,0,0.75);
+  background: rgba(0,0,0,0.4);
   color:#d10c0c;
   text-shadow    : 
      2px  2px 1px #ffffff,
