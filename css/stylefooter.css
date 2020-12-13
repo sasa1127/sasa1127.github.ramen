@@ -23,7 +23,7 @@ footer{
 }
 .footer_access{
 	margin-top: 15px;
-	font-size: 10px;
+	font-size: 15px;
 	letter-spacing: 1px;
 	line-height: 21px;
 	color: #ffffff;
@@ -31,7 +31,7 @@ footer{
 .sns_box{
 	position: absolute;
 	top: 20px;
-	right: 2%;
+	right: 4%;
 }
 .instagram{
 	display: inline-block;
@@ -47,7 +47,7 @@ footer{
 	opacity: 0.8;
 }
 .instagram img{
-	width: 50px;
+	width: 110px;
 }
 .twitter img{
 	width: 30px;
